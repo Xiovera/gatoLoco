@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<meta charset="UTF-8">
+	<title>3 en raya</title>
+</head>
+<body class="text-center">
+<header>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Historial</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<section id="saludo" class="visible">
+	<div class="content">
+		<div class="container">
+
+			<h1>Bienvenido a Gato Loco!</h1>
+			<button id="btn-saludo">Iniciar juego</button>
+
+		</div>
+	</div>
+</section>
+
+<section id="nombres">
+	<div class="content">
+		<div class="container">
+			<p>Ingrese el nombre del jugador 1 <input class="form-control" type="text"></p>
+			<p>Ingrese el nombre del jugador 2 <input class="form-control" type="text"></p>
+			<p class="text-center">
+				<button id="btn-nombres">Comenzar</button>
+			</p>
+		</div>
+	</div>
+</section>
+
+
+<section id="juego">
+	<div class="content">
+		<div class="container">
+			<h2>Juego</h2>
+			<div class="row">
+			  <div id="1" class="col-xs-4"></div>
+			  <div id="2" class="col-xs-4"></div>
+			  <div id="3" class="col-xs-4"></div>
+			  <div id="4" class="col-xs-4"></div>
+			  <div id="5" class="col-xs-4"></div>
+			  <div id="6" class="col-xs-4"></div>
+			  <div id="7" class="col-xs-4"></div>
+			  <div id="8" class="col-xs-4"></div>
+			  <div id="9" class="col-xs-4"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="historial">
+	<div class="content">
+		<div class="container">
+			<h2>Historial</h2>
+		</div>
+	</div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
