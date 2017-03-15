@@ -1,3 +1,8 @@
+*{
+	
+	font-family: 'Griffy', cursive;
+
+}
 header
 {
 	position: relative;
@@ -6,7 +11,8 @@ header
 
 section
 {
-	background: rgba(0,155, 0, 0.3);
+	background: url(../img/fondo2.jpg) no-repeat;
+	background-size: cover;
 	position: absolute;
 	width:100%;
 	height:100%;
@@ -77,13 +83,13 @@ section#players {
     background: #0fa6d8;
     padding: 10px;
     float: left;
-  }
+}
   section#players .inactive {
     opacity: .2;
-  }
+}
   section#players .playerTwo {
     background: #33e20f;
-  }
+}
 
 #clear {
   margin-top: 10px;
